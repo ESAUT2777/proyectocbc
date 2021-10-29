@@ -1,0 +1,109 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  h1, ul {
+    margin: 0;
+    padding: 0;
+   }
+   #wrap {
+    background: #fff;
+    width: 97%;
+    padding: 0px 0px;
+    margin: 0 auto;
+   }
+   #header {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background: rgba(237, 145, 33, 1);
+    border-bottom: 1px dotted #000;
+    min-height: 90px;
+    margin-top: 10px;
+   }
+   #logo{
+    margin-left: 30px;
+    padding-top: 15px;
+    }
+    #menu {
+        min-height: 25px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+        border-bottom: 1px dotted #000;
+       }
+       #menu ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        }
+        #menu ul li{
+            margin-left: 10px;
+            background:rgb(205, 245, 187);
+            float: left;
+          }
+          #menu ul li a{
+           display: block;
+           padding: 5px 10px;
+           color: #000;
+           text-decoration: none;
+          }
+          #menu ul li a:hover{
+           background: green;
+           color: #fff;
+           -webkit-border--radius: 10px;
+           -moz-border-radius: 10px;
+           border-radius: 10px;
+          }
+          #menu ul li ul li{
+           float: none;
+           }
+          #menu ul li ul{
+           position: absolute;
+           display: none;
+           }
+          #menu ul li:hover ul{
+           display: block;
+           }
+           #main {
+            background: rgba(230, 230, 250, 1);
+           }
+           #content {
+            background: rgba(248, 248, 255, 1);
+            float: left;
+            width: 100%;
+            padding: 20px;
+            min-height: 400px;
+            border-right: 1px solid #aaa;
+           }
+           #content h1{
+            font-size: 1.6em;
+           }
+           td:hover{
+               cursor: pointer;            
+           }
+           td a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.2em;
+        }
+        td li{
+            list-style-type: none;
+        }
+        td li:hover{
+            background-color:#607B8B;
+        }
+        td li:active{
+            background-color: yellowgreen;
+        }
+        .clear{
+            clear: both;
+           }
+           #formulario{
+               background-color: aqua;
+           }
+    
+           #footer{
+            background: rgb(0, 128, 0);
+            color: #fff;
+            padding: 10px;
+           }
+

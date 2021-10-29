@@ -1,0 +1,21 @@
+*{box-sizing:border-box;}
+
+form{
+	width:100%;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+form input[type="text"],
+form input[type="email"]{
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+tr{
+    cursor: pointer;
+}
